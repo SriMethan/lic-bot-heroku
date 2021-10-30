@@ -1,4 +1,4 @@
 #!/bin/bash
 chmod +x engines/sf
-chmod a+x engines/sfs
+chmod a+x engines/stockfish_14.1_linux_x64_popcnt
 python lichess-bot.py
