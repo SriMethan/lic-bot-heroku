@@ -26,7 +26,7 @@ class Conversation:
             self.send_reply(line, "Waiting 60 seconds...")
         elif cmd == "name":
             name = game.me.name
-            self.send_reply(line, "Stockfish 14 POPCNT, My Owner is @drdisrespect1,Drrespectable (lichess-bot v1.0.0-rc.2")
+            self.send_reply(line, "Stockfish 14 POPCNT, My Owner is @drdisrespect1,@Drrespectable (lichess-bot v1.0.0-rc.2")
         elif cmd == "howto":
             self.send_reply(line, "How to run your own bot: Check out 'Lichess Bot API'")
         elif cmd == "hi":
