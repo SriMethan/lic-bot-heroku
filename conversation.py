@@ -31,8 +31,6 @@ class Conversation:
             self.send_reply(line, "How to run your own bot: Check out 'Lichess Bot API'")
         elif cmd == "hi":
             self.send_reply(line, "Hi my freind.")
-        elif cmd == "helper":
-            self.send_reply(line, "@SriMethan.")
         elif cmd == "owner":
             self.send_reply(line, "@Drdisrespect1, @drrespectable.")
         elif cmd == "eval" and line.room == "spectator":
