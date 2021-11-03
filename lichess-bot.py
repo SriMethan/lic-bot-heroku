@@ -233,8 +233,8 @@ def play_game(li, game_id, control_queue, engine_factory, user_profile, config, 
         def __init__(self, room):
             self.room = room
     opponent = game.black.name if game.white.name == user_profile["username"] else game.white.name
-    conversation.send_reply(SendLine('player'), f'Good Luck @{opponent}')
-    conversation.send_reply(SendLine('spectator'), f'Good Luck @{opponent}')
+    conversation.send_reply(SendLine('player'), f'Hi My owner is @drdisrespect1 ,All The Best @{opponent}')
+    conversation.send_reply(SendLine('spectator'), f'Hello! Welcome my game,Stay tuned @{opponent}')
     
     variant=game.perf_name
 
@@ -313,8 +313,8 @@ def play_game(li, game_id, control_queue, engine_factory, user_profile, config, 
         except StopIteration:
             break
     
-    conversation.send_reply(SendLine('player'), f'Good Game')
-    conversation.send_reply(SendLine('spectator'), f'Good Game')
+    conversation.send_reply(SendLine('player'), f'Nice Game, Thaks for your game!')
+    conversation.send_reply(SendLine('spectator'), f'Is it Nice Game, Thanks for watching my game!')
 
     engine.stop()
     engine.quit()
